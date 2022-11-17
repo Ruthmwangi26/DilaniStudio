@@ -1,23 +1,39 @@
-body{
+#home{
     background-image: url('backgroundimage2.jpg');
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     color: white;
+    text-align: center;
+    text-justify: inherit;
+
 
 }
+#services{
+        background-image: url('s_image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        text-justify: inherit;
+        color: white;
+        font-size: small;
 
+
+}
+#what{
+
+  text-align: center;
+    text-justify: inherit;
+}
+
+
+#about{
+    text-align: center;
+    text-justify: inherit;
+}
 h3{
     text-align: center;
     text-justify: inherit;
 }
-
-#logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;  
-
-}
-
 #p1{
     text-align: center;
     text-justify: inherit;
@@ -29,4 +45,12 @@ h3{
         top: 50%;
         left: 50%;
 
+}
+
+body{
+
+    width: 900px;
+    border: 20px ;
+    padding: 50px;
+    margin: auto;
 }
