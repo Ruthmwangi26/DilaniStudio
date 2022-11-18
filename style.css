@@ -46,17 +46,14 @@ h3{
         left: 50%;
 
 }
-/* 
-body{
+.contactus{
 
-    width: 900px;
-    border: 20px ;
-    padding: 50px;
-    margin: auto;
-} */
-
-#contact{
-background-image: url('c_image.jpg');
-
+   background-image: url('c_image.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   text-justify: inherit;
+  
 
 }
+
