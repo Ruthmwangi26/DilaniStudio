@@ -53,19 +53,19 @@
     <div class="row" >
         <div class="col-md-4" >
             <div id="designimage" >
-                <img src="design_icon.png">
-                <p>DESIGN</p>
-                <P>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                <img class="image-what1" src="design_icon.png">
+                <p class="design" >DESIGN</p>
+                <P class="design">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
 
                     Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</P>
             </div>
-        </div>
+        </div >
 
         <div class="col-md-4" >
             <div id="dev_icon" >
-                <img src="dev_icon.png" >
-                <p>DEVELOPMENT</p>
-                <P>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                <img class="image-what2" src="dev_icon.png" >
+                <p class="development" >DEVELOPMENT</p>
+                <P class="development" >All engineers are fluent in the latest enterprise, mobile and web development technologies.
 
                     They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming</P>
 
@@ -74,9 +74,9 @@
         </div>
         <div class="col-md-4"  >
             <div id="product_icon" >
-                <img src="product_icon.png" >
-                <p>PRODUCT MANAGEMENT</p>
-                <P>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+                <img class="image-what3" src="product_icon.png" >
+                <p class="product">PRODUCT MANAGEMENT</p>
+                <P class="product">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
 
                     This iterative process allows for changes as business requirements evolve</P>
 
@@ -212,14 +212,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
     $(document).ready(() =>{
-        $(('img#logo') ).mouseover
-        console.log('icon clicked');
+        // $(('img#logo') ).mouseover
+        // console.log('icon clicked');
 
-        $('h3#landing').click (()=>{
-            console.log('landing')
-        });
+        // $('h3#landing').click (()=>{
+        //     console.log('landing')
+        // });
+        $(('.image-what1')) .click(() =>{
+            $('.design').toggle(); 
+        })    
 
-        
+        $(('.image-what2')) .click(() =>{
+            $('.development').toggle(); 
+        })
+       
+        $(('.image-what3')) .click(() =>{
+            $('.product').toggle(); 
+        })
+         
             
       
 
