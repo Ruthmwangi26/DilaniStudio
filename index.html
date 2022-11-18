@@ -96,7 +96,11 @@
         <br> <br> <br> <br>
     <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-3" id="work4">
-            <img src="work4.jpg" alt="">
+          
+            <img src="work4.jpg" id="image-hover" >
+            <div class="hover">
+                <p class="hover" >work4</p>
+            </div>
 
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3" id="work3">
@@ -104,8 +108,12 @@
 
         </div>    
         <div class="col-sm-12 col-md-6 col-lg-3" id="work2">
-            <img src="work2.jpg" alt="">
+            
+                <img src="work2.jpg" alt="">
+                <div class="hover" >
+                    <p class="hover-portflio" >work4</p>
 
+                </div>    
         </div>      
         <div class="col-sm-12 col-md-6 col-lg-3" id="work1">
             <img src="work1.jpg" alt="">
@@ -230,7 +238,11 @@
             $('.product').toggle(); 
         })
          
-            
+    $(('#image-hover')).hover(()=>{
+      $('.hover-portflio') 
+
+
+    })       
       
 
 
