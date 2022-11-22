@@ -61,6 +61,7 @@ h3{
         position: absolute;
         top: 50%;
         left: 50%;
+        align-items: center;
 
 }
 .contactus{
@@ -69,6 +70,7 @@ h3{
    background-size: cover;
    display: cover;
     padding: 10%;
+   
 
 }
 
@@ -99,6 +101,16 @@ margin-top: 0px;
     margin-top: -8cm;
    text-align: center;
 }
+
+#submit{
+    padding-left: 5%;
+    margin: 5%;
+}
+
+.hide{
+    display: none;
+}
+
 input[type=text]{
 
     background: transparent;
@@ -113,6 +125,10 @@ textarea[type=text]{
 
 
 textarea [type='placeholder']{
+    color: white;
+    
+}
+input [type='Email']{
     color: white;
     
 }
