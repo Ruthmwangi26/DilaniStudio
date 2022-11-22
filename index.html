@@ -51,32 +51,38 @@
 </div>
     <p id="what" >WHAT WE DO</p>
     <div class="row" >
-        <div class="col-md-4" >
+        <div class="col-md-4" id="design" >
             <div id="designimage" >
+              <div class="hide-design-icon" id="image" >  
                 <img class="image-what1" src="design_icon.png">
-                <p class="design" >DESIGN</p>
-                <P class="design">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+            </div>
+                <h5 >DESIGN</h5>
+                <P class="hide" id="design-showing" >Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
 
                     Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</P>
             </div>
         </div >
 
-        <div class="col-md-4" >
+        <div class="col-md-4" id="development">
             <div id="dev_icon" >
+              <div class="hide-dev-icon" id="image" > 
                 <img class="image-what2" src="dev_icon.png" >
-                <p class="development" >DEVELOPMENT</p>
-                <P class="development" >All engineers are fluent in the latest enterprise, mobile and web development technologies.
+            </div>   
+                <h5>DEVELOPMENT</h5>
+                <P class="hide" id="development-showing" >All engineers are fluent in the latest enterprise, mobile and web development technologies.
 
                     They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming</P>
 
             </div>
 
         </div>
-        <div class="col-md-4"  >
+        <div class="col-md-4" id="product-management" >
             <div id="product_icon" >
+              <div class="hide-product-icon" id="image" > 
                 <img class="image-what3" src="product_icon.png" >
-                <p class="product">PRODUCT MANAGEMENT</p>
-                <P class="product">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+            </div>   
+                <h5>PRODUCT MANAGEMENT</h5>
+                <P class="hide" id="product-showing" >Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
 
                     This iterative process allows for changes as business requirements evolve</P>
 
@@ -99,25 +105,29 @@
           
             <img src="work4.jpg" id="image-hover" >
             <div class="hover">
-                <p class="hover" >work4</p>
+                <p >work4</p>
             </div>
 
         </div>
+        
         <div class="col-sm-12 col-md-6 col-lg-3" id="work3">
             <img src="work3.jpg" alt="">
-
+            <div class="hover1">
+                <p>Mighty ONTARIO</p>
+            </div>
         </div>    
         <div class="col-sm-12 col-md-6 col-lg-3" id="work2">
             
                 <img src="work2.jpg" alt="">
-                <div class="hover" >
-                    <p class="hover-portflio" >work4</p>
-
-                </div>    
+                <div class="hover2">
+                    <p>DIAMONDS</p>
+                </div>
         </div>      
         <div class="col-sm-12 col-md-6 col-lg-3" id="work1">
             <img src="work1.jpg" alt="">
-
+            <div class="hover3">
+                <p>MOVIES</p>
+            </div>
         </div>        
 
     </div>
@@ -126,18 +136,30 @@
     <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-3" id="work5">
             <img src="work5.jpg" alt="">
+            <div class="hover4">
+                <p>BOOKS</p>
+            </div>
 
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3" id="work6">
             <img src="work6.jpg" alt="">
+            <div class="hover5">
+                <p>SUBSCRIPTION</p>
+            </div>
 
         </div>    
         <div class="col-sm-12 col-md-6 col-lg-3" id="work7">
             <img src="work7.jpg" alt="">
+            <div class="hover6">
+                <p>BURNED LOGO</p>
+            </div>
 
         </div>      
         <div class="col-sm-12 col-md-6 col-lg-3" id="work8">
             <img src="work8.jpg" alt="">
+            <div class="hover7">
+                <p>GIRAFFE RESTAURANT</p>
+            </div>
 
         </div>        
 
@@ -243,9 +265,78 @@
 
 
     })       
-      
+    // what we do
+    $('#design').click(() =>{
+        $('#design-showing').toggle();
+        $('.hide-design-icon').toggle();
+    });
+     
+    $('#development').click(() =>{
+        $('#development-showing').toggle();
+        $('.hide-dev-icon').toggle();
+    });
+           
+    $('#product-management').click(() =>{
+        $('#product-showing').toggle();
+        $('.hide-product-icon').toggle();
+    });  
+
+    // portfolio
+    $(".hover").hover(()=> {
+        $('.hover').css('opacity', '1' );
+    }, () =>{
+    $('.hover').css('opacity', '0');
+
+});
+$(".hover1").hover(()=> {
+        $('.hover1').css('opacity', '1' );
+    }, () =>{
+    $('.hover1').css('opacity', '0');
+
+});
+
+$(".hover2").hover(()=> {
+        $('.hover2').css('opacity', '1' );
+    }, () =>{
+    $('.hover2').css('opacity', '0');
+
+});
+
+$(".hover3").hover(()=> {
+        $('.hover3').css('opacity', '1' );
+    }, () =>{
+    $('.hover3').css('opacity', '0');
+
+});
+
+$(".hover4").hover(()=> {
+        $('.hover4').css('opacity', '1' );
+    }, () =>{
+    $('.hover4').css('opacity', '0');
+
+});
+
+$(".hover5").hover(()=> {
+        $('.hover5').css('opacity', '1' );
+    }, () =>{
+    $('.hover5').css('opacity', '0');
+
+});
 
 
+$(".hover6").hover(()=> {
+        $('.hover6').css('opacity', '1' );
+    }, () =>{
+    $('.hover6').css('opacity', '0');
+
+});
+
+$(".hover7").hover(()=> {
+     $('.hover7').css('opacity', '1' );
+    }, () =>{
+    $('.hover7').css('opacity', '0');
+
+    });
     });
 
 

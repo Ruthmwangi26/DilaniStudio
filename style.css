@@ -8,6 +8,23 @@
 
 
 }
+
+#image{
+
+    display: flex;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
+h5{
+
+    text-align: center;
+}
+
+
 #services{
         background-image: url('s_image.jpg');
         background-repeat: no-repeat;
@@ -63,11 +80,11 @@ h3{
 
 }
 
-body{
-margin-left: 10px;
+/* body{
+margin-left: 0px;
 margin-top: 0px;
 
-}
+} */
 
 .design,.development,.product{
  display: none;
@@ -75,13 +92,12 @@ margin-top: 0px;
 
 }
 
-.hover{
-    opacity:0;
-    background-color: rgba(255, 255, 255, 0.623);
+.hover,.hover1,.hover2,.hover3,.hover4,.hover5,.hover6,.hover7{
+    height: 310px;
+    width: 366px;
     position: absolute;
-    top:25%;
-    bottom:25%;
-    left:25%;
-    right:25%;
-   
+    background-color: white;
+    opacity: 0;
+    margin-top: -8cm;
+   text-align: center;
 }
