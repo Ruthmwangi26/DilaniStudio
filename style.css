@@ -129,6 +129,16 @@ textarea [type='placeholder']{
     
 }
 input [type='Email']{
+    background: transparent;
+    color: white;
+    
+}
+input [placeholder='Email']{
+    background: transparent;
+    color: white;
+    
+}
+ email [type='Email']{
     color: white;
     
 }
