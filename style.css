@@ -124,7 +124,7 @@ textarea[type=text]{
 }
 
 
-textarea [type='placeholder']{
+/* textarea [type='placeholder']{
     color: white;
     
 }
@@ -141,4 +141,4 @@ input [placeholder='Email']{
  email [type='Email']{
     color: white;
     
-}
+} */
