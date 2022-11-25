@@ -80,11 +80,7 @@ h3{
 
 }
 
-/* body{
-margin-left: 0px;
-margin-top: 0px;
 
-} */
 
 .design,.development,.product{
  display: none;
@@ -124,21 +120,7 @@ textarea[type=text]{
 }
 
 
-/* textarea [type='placeholder']{
-    color: white;
-    
+#button{
+ align-items: center;
+
 }
-input [type='Email']{
-    background: transparent;
-    color: white;
-    
-}
-input [placeholder='Email']{
-    background: transparent;
-    color: white;
-    
-}
- email [type='Email']{
-    color: white;
-    
-} */
