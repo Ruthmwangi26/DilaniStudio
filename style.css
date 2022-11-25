@@ -1,126 +1,112 @@
-#home{
-    background-image: url('backgroundimage2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    text-justify: inherit;
-
-
-}
-
-#image{
-
-    display: flex;
-    justify-content: center;
-}
-
-.hide{
-    display: none;
-}
-
-h5{
-
-    text-align: center;
-}
-
-
-#services{
-        background-image: url('s_image.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        text-justify: inherit;
-        color: white;
-        font-size: small;
-
-
-}
-#what{
-
+#home {
+  background-image: url("backgroundimage2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   text-align: center;
-    text-justify: inherit;
+  text-justify: inherit;
 }
 
-
-#about{
-    text-align: center;
-    text-justify: inherit;
-}
-h3{
-    text-align: center;
-    text-justify: inherit;
-}
-#p1{
-    text-align: center;
-    text-justify: inherit;
-    
+#image {
+  display: flex;
+  justify-content: center;
 }
 
-#button{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        align-items: center;
-
-}
-.contactus{
-
-   background-image: url('c_image.jpg');
-   background-size: cover;
-   display: cover;
-    padding: 10%;
-   
-
+.hide {
+  display: none;
 }
 
-.socials{
-    text-align: center;
-   margin-left: 20%;
-
+h5 {
+  text-align: center;
 }
 
-
-
-.design,.development,.product{
- display: none;
-
-
+#services {
+  background-image: url("s_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-justify: inherit;
+  color: white;
+  font-size: small;
+}
+#what {
+  text-align: center;
+  text-justify: inherit;
 }
 
-.hover,.hover1,.hover2,.hover3,.hover4,.hover5,.hover6,.hover7{
-    height: 310px;
-    width: 366px;
-    position: absolute;
-    background-color: white;
-    opacity: 0;
-    margin-top: -8cm;
-   text-align: center;
+#about {
+  text-align: center;
+  text-justify: inherit;
+}
+h3 {
+  text-align: center;
+  text-justify: inherit;
+}
+#p1 {
+  text-align: center;
+  text-justify: inherit;
 }
 
-#submit{
-    padding-left: 5%;
-    margin: 5%;
+#button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+}
+.contactus {
+  background-image: url("c_image.jpg");
+  background-size: cover;
+  display: cover;
+  padding: 10%;
 }
 
-.hide{
-    display: none;
+.socials {
+  text-align: center;
+  margin-left: 20%;
 }
 
-input[type=text]{
-
-    background: transparent;
-    color: white;
+.design,
+.development,
+.product {
+  display: none;
 }
 
-textarea[type=text]{
-    background:transparent;
-    color: white;
-    
+.hover,
+.hover1,
+.hover2,
+.hover3,
+.hover4,
+.hover5,
+.hover6,
+.hover7 {
+  height: 310px;
+  width: 366px;
+  position: absolute;
+  background-color: white;
+  opacity: 0;
+  margin-top: -8cm;
+  text-align: center;
 }
 
+#submit {
+  padding-left: 5%;
+  margin: 5%;
+}
 
-#button{
- align-items: center;
+.hide {
+  display: none;
+}
 
+input[type="text"] {
+  background: transparent;
+  color: white;
+}
+
+textarea[type="text"] {
+  background: transparent;
+  color: white;
+}
+
+#button {
+  align-items: center;
 }
